@@ -1,0 +1,71 @@
+/*body {
+    font-family: sans-serif;
+    margin: 0;
+}*/
+
+.main-content {
+    max-width: 900px;
+    margin: 50px auto; /* Centers the container */
+    padding: 40px;
+    background-color: #ffffff; /* White content area */
+    border-radius: 8px;
+}
+
+.intro{
+    margin-bottom: 80px;
+}
+/* Add this to your style.css file */
+
+.intro .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    object-fit: cover; 
+    margin-bottom: 20px ;
+}
+
+
+.intro p  { margin: 0 0 5px 0; color: #555; }
+.intro .cool  { margin: 0 0 32px 0; color: #555; }
+
+.intro nav a {
+    margin-right: 15px;
+    color: #000;
+    font-weight: 500;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+    gap: 40px; /* Sets the space between the cards */
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project-info {
+    display: flex; /* This places the year and details side-by-side */
+    gap: 90px;
+    
+}
+
+
+
+.project-year { color: #888; }
+.project-details .mo { margin: 0 0 5px 0; color: rgb(104, 99, 99);}
+.project-details p { margin: 0; color:  #aaa; }
+
+.site-footer {
+    margin-top: 120px;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+.site-footer .pub {
+    margin-bottom: 17px;
+}
+
+.site-footer p {
+    margin: 5px 0;
+}
